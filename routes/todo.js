@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const _ = require('lodash');
 const async = require('async');
-var multer = require('multer');
 const Todo = require('../models/todo');
 
 

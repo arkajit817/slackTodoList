@@ -22,3 +22,8 @@ let checkAuthentication = (req, res, next) => {
 module.exports = {
     checkAuthentication: checkAuthentication,
 }
+
+
+
+
+//middleware to check the token to validate whether the request is from slack or not
